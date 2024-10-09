@@ -1,10 +1,14 @@
-const MyPortfolio = () => {
-  return (
-    <div className="w-[100%] h-[800px] bg-black">
-      <div className="w-[100%] h-[100px] bg-blue-300"></div>
+import Home from "./components/Home";
+import React from "react";
 
-    </div>
-  );
-}
 
-export default MyPortfolio;
+
+const Portfolio: React.FC = () => {
+    return (
+        <div>
+            <Home/>
+        </div>
+    );
+};
+
+export default Portfolio;
